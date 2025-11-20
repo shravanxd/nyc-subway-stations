@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Data (Do not commit large datasets)
+gtfs_supplemented/
+data/
+processed_data/
+*.zip
+*.csv
+*.txt
+stations_metadata.json
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
